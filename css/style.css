@@ -153,6 +153,13 @@ img {
   text-align: center;
   background: #2f303a;
   padding: 200px 0;
+  background-image: linear-gradient(
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)),
+    url(../images/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-title {
@@ -273,6 +280,39 @@ img {
   letter-spacing: 0.03em;
 }
 
+.team-soc-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-soc-item {
+  
+}
+
+.team-soc-link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+
+.team-soc-icon {
+  fill: #AFB1B8;
+}
+
+.team-soc-link:hover,
+.team-soc-link:focus {
+  background-color: var(--color-accent);
+}
+
+.team-soc-link:hover .team-soc-icon,
+.team-soc-link:focus .team-soc-icon {
+  fill: #ffffff;
+}
+
 /*-----------FOOTER----------*/
 
 .footer {
@@ -358,7 +398,7 @@ img {
 
 .portfolio-item {
   border: 1px solid #eeeeee;
-  flex-basis: calc((100% - 60px) / 3); 
+  flex-basis: calc((100% - 60px) / 3);
 }
 
 .portfolio-list {
