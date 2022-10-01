@@ -125,6 +125,14 @@ img {
   align-items: center;
 }
 
+.header-mail-icon {
+  width: 16px;
+}
+
+.header-tel-icon {
+  width: 10px;
+}
+
 .header-mail-icon,
 .header-tel-icon {
   fill: currentColor;
@@ -518,9 +526,9 @@ img {
 .portfolio-item {
   flex-basis: calc((100% - 60px) / 3);
   width: 370px;
-    height: 404px;
-    background: #ffffff;
-    border: 1px solid #eeeeee;
+  height: 404px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
 }
 
 .portfolio-item:hover {
@@ -530,7 +538,6 @@ img {
 
 .portfolio-link:focus {
   border-color: var(--color-accent);
-  
 }
 
 .portfolio-list {
